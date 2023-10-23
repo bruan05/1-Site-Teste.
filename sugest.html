@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[VB] 2 INVEST</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Poppins:ital,wght@0,700;1,400&display=swap');
+        body {
+            background-color: #ffffff;
+            margin: 0;
+        }
+        .content {
+            min-height: 100vh;
+            padding-bottom: 50px;
+        }
+
+        #head {
+            background-color: #97c6dc;
+            display: flex;
+            align-items: center;
+            gap: 200px;
+        }
+        #img img {
+            width: 125px;
+            height: auto;
+            justify-content: left;
+        }
+        #botoes input[type=submit] {
+            border: none;
+            padding: 20px 80px;
+            margin-top: 10px;           
+            cursor: pointer;
+            background-color: #050e59;
+            color:#ffffff;
+            border-radius: 20px;
+            display:inline;
+        }
+        #corpo #conteudo {
+            margin: 10px;
+            display: inline-block;
+            width: 96%;
+            gap: 15px;
+            border-radius: 20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #050e59;
+            color: #ffffff;
+        }
+        #corpo #conteudo form {
+            text-align: center;
+            color: #050e59;
+            margin-right: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #corpo #conteudo label {
+            display: block;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        #corpo #conteudo input[type="text"],
+        #corpo #conteudo input[type="tel"],
+        #corpo #conteudo input[type="email"],
+        #corpo #conteudo input[type="id"],
+        #corpo #conteudo input[type="submit"] {
+            width: 60%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #050e59;
+            border-radius: 10px;
+            color: #050e59;
+        }
+        #corpo #conteudo textarea {
+            width: 60%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #050e59;
+            border-radius: 10px;
+            color: #050e59;
+        }
+        #corpo #conteudo h4 {
+            color: #ffffff;
+        }
+        #corpo #conteudo #texto-principal {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ffffff;
+            text-align: center;
+        }
+        footer {
+            background-color: #97c6dc;
+            color: #000000;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            align-items: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div id="head">
+            <div id="img">
+                <a href="index.html">
+                    <img src="VB INVEST logo.png" alt="Logo">
+                </a>
+            </div>
+            <div id="botoes">
+                <table>
+                    <tr>
+                        <td><form action="tipos-de-inv.html" target="_parent"><input type="submit" value="TIPOS DE INVESTIMENTOS"></form></td>
+                        <td><form action="sobre.html" target="_parent"><input type="submit" value="SOBRE"></form></td>
+                        <td><form action="login.html" target="_parent"><input type="submit" value="LOGIN"></form></td>
+                        <td><form action="cadastro.html" target="_parent"><input type="submit" value="CADASTRE-SE"></form></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="corpo">
+            <div id="conteudo">
+                <div id="texto-principal">
+                    <h1>Seja Bem-vindo à área de sugestões da [VB] 2 Invest! Deixe suas informações de contato e após isso suas sugestões!</h1>
+                </div>
+                <form action="index.html">
+                    <label for="username">Digite seu Nome:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="tel">Telefone:</label>
+                    <input type="tel" name="Telefone" required maxlength="13"><br></br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" required><br></br>
+                    <label for="id">CPF:</label>
+                    <input type="id" name="id" required maxlenght="11"><br></br>
+                    <h4>Deixe sugestões para nosso site!</h4>
+                    <textarea name="txtreview" id="txtreview" cols="30" rows="10">Digite suas sugestões aqui!</textarea>
+                    <input type="submit" value="ENVIAR">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 [VB] 2 Invest. Todos os direitos reservados.</p>
+        <p>Endereço: Praça Gen. Osório, 125 - 3 - Centro, Curitiba - PR, 80020-010</p>
+        <p>Telefone: (41) 3333-3333</p>
+        <p>Email: contato@vb2invest.com</p>
+        <link rel="stylesheet" href="">
+    </footer>
+</body>
+</html>
