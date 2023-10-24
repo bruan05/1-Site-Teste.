@@ -4,112 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>[VB] 2 INVEST</title>
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Poppins:ital,wght@0,700;1,400&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Nunito:ital,wght@1,200&family=Oswald:wght@200;500&family=Poppins:ital,wght@0,700;1,400&display=swap');
-        body {
-            background-color: #ffffff;
-            margin: 0;
-            margin-top: 0px;
-            margin-left: 0px;
-            margin-right: 0px;
-        }
-        .content {
-            min-height: 100vh;
-            padding-bottom: 50px;
-        }
+    <link rel="stylesheet" href="style.css">
 
-        #head {
-            background-color: #97c6dc;
-            display: flex;
-            align-items: center;
-            margin-top: 0px;
-            gap: 200px;
-        }
-        #img img {
-            width: 125px;
-            height: auto;
-            justify-content: left;
-        }
-        #botoes input[type=submit] {
-            border: none;
-            padding: 20px 80px;
-            margin-top: 10px;
-            cursor: pointer;
-            background-color: #050e59;
-            color:#ffffff;
-            border-radius: 20px;
-            display: inline;
-        }
-        #corpo {
-            margin: 10px;
-            width: 100%;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #ffffff;
-            gap: 10px;
-        }
-        #corpo #conteudo {
-            padding-left: 10px;
-            padding-right: 10px;
-            margin: 10px;
-            display: inline-block;
-            width: 96%;
-            font-family: Arial, Helvetica, sans-serif;
-            gap: 10px;
-            background-color: #050e59;
-            border-radius: 20px;
-        }
-        #corpo ul {
-            text-align: center;
-            padding: 0;
-            display: flex;
-        }
-        #corpo li {
-            background-color: #ffffff;
-            width: 325px;
-            height: 200px;
-            border-radius: 20px;
-            color: #0d2745;
-            font-size: 20px;
-            text-align: center;
-            display: inline-block;
-            margin: 10px;
-        }
-        #corpo li h2 {
-            font-family: 'Arimo', sans-serif;
-            font-weight: 700;
-            justify-content: center;
-            margin-top: 10px;
-            color: #050e59;
-            font-weight: bold;
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: #000000;
-        }
-        #corpo li p {
-            font-family: 'Arimo', sans-serif;
-            font-weight: 400;
-            font-size: 15px;
-            text-align: center;
-            color: #000000;
-            font-weight: bold;
-        }
-        #texto-principal {
-            margin-left: 10px;
-            margin-right: 10px;
-            font-size: 15px;
-            font-family: Arial, Helvetica, sans-serif;
-            color: #ffffff;
-            text-align: center;
-        }
-        footer {
-            background-color: #97c6dc;
-            color: #000000;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            align-items: end;
-        }
     </style>
 </head>
 <body>
@@ -117,21 +13,25 @@
         <div id="head">
             <div id="img">
                 <a href="index.html">
-                    <img src="VB INVEST logo.png" alt="Logo">
+                    <img src="VB INVEST logo black.png" alt="Logo">
+                </a>
+            </div> 
+            <div id="botoes">
+                <a href="tipos-de-inv.html">
+                    <input type="submit" class="botao" value="TIPOS DE INVESTIMENTOS">
+                </a>
+                <a href="sobre.html">
+                    <input type="submit" class="botao" value="SOBRE">
+                </a>
+                <a href="login.html">
+                    <input type="submit" class="botao" value="LOGIN">
+                </a>
+                <a href="cadastro.html">
+                    <input type="submit" class="botao" value="CADASTRE-SE">
                 </a>
             </div>
-            <div id="botoes">
-                <table>
-                    <tr>
-                        <td><form action="tipos-de-inv.html" target="_parent"><input type="submit" value="TIPOS DE INVESTIMENTOS"></form></td>
-                        <td><form action="sobre.html" target="_parent"><input type="submit" value="SOBRE"></form></td>
-                        <td><form action="login.html" target="_parent"><input type="submit" value="LOGIN"></form></td>
-                        <td><form action="cadastro.html" target="_parent"><input type="submit" value="CADASTRE-SE"></form></td>
-                    </tr>
-                </table>
-            </div>
         </div>
-            <div id="corpo">
+            <div id="corpot">
                 <div id="conteudo">
                     <div id="texto-principal">
                         <h1>Aqui estão nossos Tipos de Investimentos!</h1>
