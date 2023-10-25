@@ -8,7 +8,7 @@ body {
 }
 .content {
     min-height: 100vh;
-    padding-bottom: 50px;
+    padding-bottom: 2vh;
 }
 #head {
     background-color: #706F6F;
@@ -34,7 +34,6 @@ body {
 #botoes input[type=submit] {
     border: none;
     padding: 3vh 8vh;
-    margin-top: 10px;
     margin: 0%;     
     width: 100%;
     max-width: 100%;
@@ -53,35 +52,38 @@ body {
     transform: scale(0.90);
 }
 #corpo {
-    margin: 10px;
+    margin: 2vh;
+    margin-bottom: 2vh;
     display: grid;
     width: 100%;
-    gap: 15px;
-    font-size: 20px;
+    gap: 1.5vh;
+    font-size: 3vh;
     font-family: 'Nunito', sans-serif;
-    color: #ffffff;
+    color: #DBDBDB;
     font-style: oblique;
     font-weight: 200;
 }
 #texto-principal {
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 15px;
+    font-size: 2vh;
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+    color: #000F08;
     text-align: center;
 }
 #corpo #prim p {
     margin-top: 20vh;
     margin-left: 10vh;
-    text-align: justify;
+    margin-right: 50%;
+    padding-right: 50%;
+    text-align: left;
+    font-size: 7vh;
+    text-transform: uppercase;
     position: absolute;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: #000F08;
 }
 #corpo #seg p {
-    margin-top: 70vh;
+    margin-top: 75vh;
     margin-left: 10vh;
     text-align: justify;
     position: absolute;
@@ -97,6 +99,7 @@ body {
     
 }
 footer {
+    margin: 0;
     background-color: #706F6F;
     color: #ffffff;
     text-align: center;
@@ -108,54 +111,98 @@ footer a {
     color: #ffffff;
 }
 #corpot {
-    margin: 10px;
+    margin: 2vh;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
+    background-color: #DBDBDB;
     gap: 10px;
 }
 #corpot #conteudo {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 10px;
+    margin: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
     display: inline-block;
     width: 96%;
     font-family: Arial, Helvetica, sans-serif;
-    gap: 10px;
-    background-color: #050e59;
+    gap: 2vh;
+    background-color: #B0B5B3;
     border-radius: 20px;
 }
-#corpot ul {
-    text-align: center;
-    padding: 0;
-    display: flex;
+.tipos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 2vh;
+    grid-column-gap: 2vh;
+    flex-wrap: wrap;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    justify-content:center;
+    align-content: top;
+    height: 80vh;
+    margin-bottom: 2vh;
 }
-#corpot li {
+.type{
     background-color: #ffffff;
-    width: 325px;
-    height: 200px;
+    color: #000F08;
+    padding: 10px;
+    text-align: center;
     border-radius: 20px;
-    color: #0d2745;
-    font-size: 20px;
-    text-align: center;
+}
+#corpos{
+    margin-left: 2vh;
+    margin-right: 2vh;
+    display: grid;
+    width: 100%;
+}
+#corpos #conteudo{
+    margin: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
     display: inline-block;
-    margin: 10px;
+    width: 96%;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #B0B5B3;
+    color: #000F08;
+    text-align: center;        
 }
-#corpot li h2 {
-    font-family: 'Arimo', sans-serif;
-    font-weight: 700;
-    justify-content: center;
-    margin-top: 10px;
-    color: #050e59;
-    font-weight: bold;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000000;
+#corpos #conteudo #descriçao{
+    background-color: #DBDBDB;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    border-radius: 20px;
 }
-#corpot li p {
-    font-family: 'Arimo', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
+#corpos #conteudo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
     text-align: center;
-    color: #000000;
-    font-weight: bold;
+    margin-top: 2vh;
+    padding: 2vh 0;
+}
+#corpos #conteudo p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-size: 3vh;
+    padding: 0 25%;
+    padding-bottom: 2vh;
+    text-align: justify;
+}
+#corpos #conteudo li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    font-size: 2.5vh;
+    padding: 0 25%;
+    text-align: justify;
+}
+#corpos #conteudo #texto-principal {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000F08;
+    text-align: center;
 }
