@@ -52,11 +52,9 @@ body {
     transform: scale(0.90);
 }
 #corpo {
-    margin: 2vh;
-    margin-bottom: 2vh;
+    margin-top: 2vh;
     display: grid;
     width: 100%;
-    gap: 1.5vh;
     font-size: 3vh;
     font-family: 'Nunito', sans-serif;
     color: #DBDBDB;
@@ -94,7 +92,7 @@ body {
 #corpo img {
     margin-right: 2vh;
     margin-left: 2vh;
-    width: 96%;
+    width: 98%;
     border-radius: 20px;
     
 }
@@ -111,14 +109,16 @@ footer a {
     color: #ffffff;
 }
 #corpot {
-    margin: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #DBDBDB;
     gap: 10px;
+    display: grid;
 }
 #corpot #conteudo {
-    margin: 2vh;
+    margin-top: 2vh;
     margin-left: 2vh;
     margin-right: 2vh;
     display: inline-block;
@@ -142,7 +142,7 @@ footer a {
     margin-bottom: 2vh;
 }
 .type{
-    background-color: #ffffff;
+    background-color: #DBDBDB;
     color: #000F08;
     padding: 10px;
     text-align: center;
@@ -155,7 +155,7 @@ footer a {
     width: 100%;
 }
 #corpos #conteudo{
-    margin: 2vh;
+    margin-top  : 2vh;
     margin-left: 2vh;
     margin-right: 2vh;
     display: inline-block;
@@ -197,6 +197,7 @@ footer a {
     font-size: 2.5vh;
     padding: 0 25%;
     text-align: justify;
+    list-style-position: inside;
 }
 #corpos #conteudo #texto-principal {
     margin-left: 2vh;
@@ -205,4 +206,341 @@ footer a {
     font-family: Arial, Helvetica, sans-serif;
     color: #000F08;
     text-align: center;
+}
+#corpol {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    display: grid;
+    width: 100%;
+    
+}
+#corpol #conteudo {
+    display: inline-block;
+    width: 96%;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    background-color: #B0B5B3;
+    
+}
+#corpol #conteudo #texto-principal {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000F08;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+#corpol #conteudo h2 {
+    text-align: center;
+    color: #000F08;
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+#corpol #conteudo form {
+    text-align: center;
+    color: #000F08;
+    margin-right: 2vh;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#corpol #conteudo label {
+    display: block;
+    margin-bottom: 2vh;
+    color: #000F08;
+}
+#corpol #conteudo input[type="text"],
+#corpol #conteudo input[type="password"]{
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 2vh;
+    border: 1px solid #000F08;
+    border-radius: 10px;
+    color: #000F08;
+    background-color: #DBDBDB;
+}
+#corpol #conteudo button {
+    background-color: #000F08;
+    color: #ffffff;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+#corpol #conteudo button:hover{
+    background-color: #706F6F;
+    color: #000F08;
+}
+#corpol #conteudo button:active{
+    transform: scale(0.90);
+}
+#corpol #conteudo h4 {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 0vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    color: #000F08;
+    padding: 0 25%;
+    font-size: 2vh;
+    text-transform: initial;
+    font-style: normal;
+    font-weight: normal;
+}
+#corpol #conteudo p {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    color: #000F08;
+    padding: 0 25%;
+    font-size: 1.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 2vh;
+}
+#corpoc{
+    margin-left: 2vh;
+    margin-right: 2vh;
+    display: grid;
+    width: 100%;
+}
+#corpoc #conteudo {
+    display: inline-block;
+    width: 96%;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    background-color: #B0B5B3;
+}
+#corpoc #conteudo #texto-principal {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000F08;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+#corpoc #conteudo h2 {
+    text-align: center;
+    color: #000F08;
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+#corpoc #conteudo form {
+    text-align: center;
+    align-items: center;
+    color: #000F08;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    padding: 0 15%;
+    display: grid;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#corpoc #conteudo label {
+    display: block;
+    color: #000F08;
+}
+#corpoc #conteudo input[type="text"],
+#corpoc #conteudo input[type="password"],
+#corpoc #conteudo input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #050e59;
+    border-radius: 10px;
+    color: #ffffff;
+    align-items: center;
+}
+#corpoc #conteudo button {
+    background-color: #000F08;
+    color: #ffffff;
+    border: none;
+    padding: 3vh 8vh;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+#corpoc #conteudo button:hover{
+    background-color: #706F6F;
+    color: #000F08;
+}
+#corpoc #conteudo button:active{
+    transform: scale(0.90);
+}
+#corpoc #conteudo h4 {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 0vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    color: #000F08;
+    padding: 0 25%;
+    font-size: 2vh;
+    text-transform: initial;
+    font-style: normal;
+    font-weight: normal;
+}
+#corpoc #conteudo p {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    color: #000F08;
+    padding: 0 25%;
+    font-size: 1.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 2vh;
+}
+#corpoc #conteudo #botaolog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#corpoc #conteudo #botaolog a {
+    display: flex;
+    color:#000F08;
+    margin-bottom: 2vh;
+    align-items: center;
+}
+#corpoc #conteudo #botaolog input[type=submit] {
+    border: none;
+    padding: 3vh 8vh;
+    margin: 0%;
+    cursor: pointer;
+    background-color: #000F08;
+    color:#ffffff;
+    border-radius: 10px;
+    border: none;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    transition: background-color 0.3s, transform 0.2s;
+}
+#corpoc #conteudo #botaolog input[type="submit"]:hover {
+    background-color: #706F6F;
+    color: #000F08;
+}
+#corpoc #conteudo #botaolog input[type="submit"]:active {
+    transform: scale(0.90);
+}
+#corpos #conteudo {
+    display: inline-block;
+    width: 96%;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    background-color: #B0B5B3;
+}
+#corpos #conteudo form {
+    text-align: center;
+    align-items: center;
+    color: #000F08;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    padding: 0 15%;
+    display: grid;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#corpos #conteudo label {
+    display: block;
+    color: #000F08;
+    margin: 0%;
+}
+#corpos #conteudo input[type="text"],
+#corpos #conteudo input[type="tel"],
+#corpos #conteudo input[type="email"],
+#corpos #conteudo input[type="id"] {
+    width: 100%;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding: 2vh;
+    border: 1px solid #050e59;
+    border-radius: 10px;
+    color: #ffffff;
+    align-items: center;
+}
+#corpos #conteudo input[type="submit"]{
+    width: 100%;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding: 2vh;
+    background-color: #000F08;
+    border-radius: 10px;
+    border: 0;
+    color: #ffffff;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+#corpos #conteudo input[type="submit"]:hover{
+    background-color: #706F6F;
+    color: #000F08;
+}
+#corpos #conteudo input[type="submit"]:active{
+    transform: scale(0.90);
+}
+#corpos #conteudo textarea {
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 2vh;
+    border: 1px solid #050e59;
+    border-radius: 10px;
+    color: #050e59;
+}
+#corpos #conteudo h4 {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 0vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    color: #000F08;
+    padding: 0 25%;
+    font-size: 2vh;
+    text-transform: initial;
+    font-style: normal;
+    font-weight: normal;
+}
+#corpos #conteudo #texto-principal {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000F08;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
 }
